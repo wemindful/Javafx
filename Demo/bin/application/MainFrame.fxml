@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+	prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.91" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="application.MainFrameController"><!-- 控制器 -->
+	<children>
+		<Button id="btn" fx:id="btn" layoutX="261.0" layoutY="263.0"
+			mnemonicParsing="false" onAction="#onButtonClick" prefHeight="23.0"
+			prefWidth="54.0" text="click" />
+		<Label id="lab" fx:id="mLabel" layoutX="199.0" layoutY="61.0"
+			prefHeight="95.0" prefWidth="154.0" text="标签" />
+	</children>
+</AnchorPane>
